@@ -64,3 +64,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tag }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          push: true
